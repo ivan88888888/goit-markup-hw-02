@@ -99,10 +99,17 @@ color: var(--primary-text-color);
 color: var(--primary-text-color); 
 }
 
+.contacts {
 
+}
 
+.contacts-mail {
+color: var(--accent-text-color);
+}
 
-
+.contacts-tel {
+color: var(--second-text-color);
+}
 
 
 
@@ -206,21 +213,21 @@ footer:focus {
 }
 
 .logo {
-color: ;
+color: var(--accent-text-color);
 }
 
-.logo2 {
-color: ;
+.logo-second, a {
+color: var(--primary-bg-color);
 }
 
 .footer-address {
-color: ;
+color: var(--primary-bg-color);
 }
 
 .footer-mail {
-color: ;
+color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-tel {
-color: ;
+color: rgba(255, 255, 255, 0.6);;
 }
