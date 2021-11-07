@@ -4,6 +4,7 @@
     --white-text-color: #FFFFFF;
     --accent-text-color: #2196F3;
     --primary-bg-color: #FFFFFF;
+    --footer-bg-color: #2F303A;
 }
 
 body {
@@ -36,11 +37,14 @@ a {
 
 header {
     color: #212121;
+    background: #F5F4FA;
+
 }
 
 header:hover,
 header:focus {
-    color: #2196F3;
+    
+
 }
 
 
@@ -55,7 +59,7 @@ header:focus {
 
 .logo:hover, 
 .logo:focus {
-    color: #212121;
+
 }
 
 .logo-second {
@@ -69,12 +73,13 @@ header:focus {
 
 /* header - site-nav */
 .site-nav-studio {
-color: var(--accent-text-color);
+color: var(--primary-text-color);
 }
 
 .site-nav-studio:hover,
 .site-nav-studio:focus {
-color: var(--primary-text-color); 
+color: var(--white-text-color);
+background-color: var(--accent-text-color);
 }
 
 
@@ -85,7 +90,8 @@ color: var(--primary-text-color);
 
 .site-nav-portfolio:hover,
 .site-nav-portfolio:focus {
-color: var(--primary-text-color); 
+color: var(--white-text-color);
+background-color: var(--accent-text-color); 
 }
 
 
@@ -96,7 +102,8 @@ color: var(--primary-text-color);
 
 .site-nav-contacts:hover,
 .site-nav-contacts:focus {
-color: var(--primary-text-color); 
+color: var(--white-text-color);
+background-color: var(--accent-text-color); 
 }
 
 .contacts {
@@ -114,7 +121,7 @@ color: var(--second-text-color);
 
 
 /* Main */
-/* Секція 1. Герой */
+/* Студія. Секція 1. Герой */
 
 .hero {
 background-color: #2F303A; 
@@ -131,9 +138,22 @@ background-color: #2196F3;
 
 
 
+/* Портфоліо */
+
+.btn-list {
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+}
+
+.btn-list:hover,
+.btn-list:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-text-color);
+}
 
 
-/* Секція 2. Переваги */
+
+/* Студія. Секція 2. Переваги */
 
 .benefits {
 
@@ -151,7 +171,7 @@ color: var(--second-text-color);
 
 
 
-/* Секція 3. Чим ми займаємся */
+/* Студія. Секція 3. Чим ми займаємся */
 
 .section-title {
 color: var(--primary-text-color);
@@ -173,7 +193,7 @@ color: var(--primary-text-color);
 
 
 
-/* Секція 4. Наша команда */
+/* Студія. Секція 4. Наша команда */
 
 .section {
     background-color: #F5F4FA;
@@ -204,21 +224,28 @@ color: var(--second-text-color);
 
 footer {
     color: var(--primary-text-color);
-    background-color: #2F303A;
+    background-color: var(--footer-bg-color)
 }
 
-footer:hover,
-footer:focus {
-    color: var(--accent-text-color);
-}
+
+/* Футер логотип */
 
 .logo {
 color: var(--accent-text-color);
 }
 
-.logo-second, a {
+.logo-logo {
 color: var(--primary-bg-color);
 }
+
+
+
+footer:hover,
+footer:focus {
+    
+}
+
+
 
 .footer-address {
 color: var(--primary-bg-color);
