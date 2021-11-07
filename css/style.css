@@ -5,11 +5,13 @@
     --accent-text-color: #2196F3;
     --primary-bg-color: #FFFFFF;
     --footer-bg-color: #2F303A;
+    --header-bg-color: #FFFFFF;
 }
 
 body {
-    background-color: #ffffff;
-    color: #212121;
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+    
 }
 
 ul {
@@ -71,7 +73,7 @@ header:focus {
 
 
 
-/* header - site-nav */
+/* header  site-nav */
 .site-nav-studio {
 color: var(--primary-text-color);
 }
@@ -133,12 +135,12 @@ color: var(--white-text-color);
 
 .hero-button {
 color: var(--white-text-color);
-background-color: #2196F3;
+background-color: var(--accent-text-color);
 }
 
 
 
-/* Портфоліо */
+/* Портфоліо кнопки */
 
 .btn-list {
     color: var(--primary-text-color);
@@ -150,6 +152,24 @@ background-color: #2196F3;
     color: var(--white-text-color);
     background-color: var(--accent-text-color);
 }
+
+
+
+
+/* Портфоліо картинки */
+
+.portfolio-img {
+
+}
+
+.portfolio-title {
+color: var(--primary-text-color);
+}
+
+.portfolio-text {
+color: var(--second-text-color);
+}
+
 
 
 
@@ -227,6 +247,11 @@ footer {
     background-color: var(--footer-bg-color)
 }
 
+footer:hover,
+footer:focus {
+
+}
+
 
 /* Футер логотип */
 
@@ -238,18 +263,13 @@ color: var(--accent-text-color);
 color: var(--primary-bg-color);
 }
 
-
-
-footer:hover,
-footer:focus {
-    
-}
-
-
+/* Футер адреса */
 
 .footer-address {
 color: var(--primary-bg-color);
 }
+
+/* Футер контакти */
 
 .footer-mail {
 color: rgba(255, 255, 255, 0.6);
