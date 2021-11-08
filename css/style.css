@@ -24,6 +24,9 @@ body {
     color: var(--primary-text-color);
     background-color: var(--primary-bg-color);
     
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+letter-spacing: 0.03em;
 }
 
 ul {
@@ -47,10 +50,22 @@ header {
 
 .header-logo {
     color: var(--accent-text-color);
+
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 
 .header-second-logo {
     color: var(--primary-text-color);
+
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 
 .header-nav {
@@ -67,12 +82,18 @@ header {
 
 .header-link {
     color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
 }
 
 .header-link:hover,
 .header-link:focus {
     color: var(--white-text-color);
-    background-color: var(--accent-text-color)
+    background-color: var(--accent-text-color);
 }
 
 .header-second-list {
@@ -85,6 +106,11 @@ header {
 
 .header-mail {
     color: var(--second-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .header-mail:hover,
@@ -95,6 +121,11 @@ header {
 
 .header-tel {
     color: var(--second-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .header-tel:hover,
@@ -117,11 +148,23 @@ background-color: var(--footer-bg-color);
 
 .hero-title {
     color: var(--white-text-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    text-align: center;
 }
 
 .hero-button {
     color: var(--white-text-color);
     background-color: var(--accent-text-color);
+
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+
+text-align: center;
 }
 
 .hero-button:hover,
@@ -149,10 +192,20 @@ background-color: #E5E5E5;
 
 .benefits-title {
     color: var(--primary-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
 }
 
 .benefits-text {
     color: var(--second-text-color);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 
@@ -162,6 +215,12 @@ background-color: #E5E5E5;
 /*------------Чим ми займаємся-----------*/
 .work-title {
     color: var(--primary-text-color);
+
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
 }
 
 .work-list {
@@ -192,6 +251,12 @@ background-color: #E5E5E5;
 
 .team-title {
     color: var(--primary-text-color);
+
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
 }
 
 .team-list {
@@ -208,10 +273,24 @@ background-color: #E5E5E5;
 
 .team-name {
     color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .team-text {
 color: var(--second-text-color);
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+
+text-align: center;
+letter-spacing: 0.03em;
 }
 
 
@@ -234,6 +313,7 @@ color: var(--second-text-color);
 .main-button {
     color: var(--primary-text-color);
     background-color: #F5F4FA;
+    cursor: pointer;
 }
 
 .main-button:hover,
@@ -281,10 +361,25 @@ color: var(--second-text-color);
 
 .footer-logo {
     color: var(--accent-text-color);
+    font-family: 'Raleway', sans-serif;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    letter-spacing: 0.03em;
 }
 
 .footer-second-logo {
     color: var(--white-text-color);
+    font-family: 'Raleway', sans-serif;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
+    letter-spacing: 0.03em;
 }
 
 .footer-adress {
@@ -301,6 +396,13 @@ color: var(--second-text-color);
 
 .footer-link-map {
     color: var(--white-text-color);
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
 }
 
 .footer-link-map:hover,
@@ -311,6 +413,14 @@ color: var(--second-text-color);
 
 .footer-link-mail {
     color: var(--second-text-color);
+
+    font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+
+letter-spacing: 0.03em;
 }
 
 .footer-link-mail:hover,
@@ -321,6 +431,13 @@ color: var(--second-text-color);
 
 .footer-link-tel {
     color: var(--second-text-color);
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
 }
 
 .footer-link-tel:hover,
