@@ -15,9 +15,10 @@
 
 /* Хедер фон #FFFFFF; */
 /* Герой фон #2F303A; */
+/* Футер фон #2F303A; */
 /* Чим ми займаємся фон #E5E5E5; */
 /* Наша команда фон #F5F4FA; */
-/* Футер фон #2F303A; */
+
 
 body {
     color: var(--primary-text-color);
@@ -102,15 +103,19 @@ header {
     background-color: var(--accent-text-color);
 }
 
+
+
+
+
 /*-----------MAIN-----------------------*/
 /*-------Секція 1. Герой----------------*/
 
 .hero-section {
-
+background-color: var(--footer-bg-color);
 }
 
 .hero-title {
-    color: var(--primary-text-color);
+    color: var(--white-text-color);
 }
 
 .hero-button {
@@ -124,9 +129,13 @@ header {
     background-color: #188CE8;
 }
 
+
+
+
+
 /*-------Секція 2. Переваги-------------*/
 .benefits-section {
-
+background-color: #E5E5E5;
 }
 
 .benefits-list {
@@ -144,6 +153,9 @@ header {
 .benefits-text {
     color: var(--second-text-color);
 }
+
+
+
 
 
 /*------------Чим ми займаємся-----------*/
@@ -168,8 +180,12 @@ header {
 }
 
 
+
+
+
 /*-----------Секція 3. Наша команда-------*/
 .team-section {
+    background-color: #F5F4FA;
 
 }
 
@@ -197,6 +213,9 @@ header {
 color: var(--second-text-color);
 }
 
+
+
+
 /*----------------MAIN PORTFOLIO-------------------*/
 /*----------------Список кнопок-------------------*/
 .main {
@@ -221,6 +240,9 @@ color: var(--second-text-color);
     color: var(--white-text-color);
     background-color: var(--accent-text-color);
 }
+
+
+
 
 /*----------------Список картинок-------------------*/
 .main-second-list {
