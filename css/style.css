@@ -8,6 +8,17 @@
     --header-bg-color: #FFFFFF;
 }
 
+/* Основний колір тексту #212121; */
+/* Другорядний колір тексту #757575; */
+/* Білий колір тексту #FFFFFF; */
+/* Акцентований колір тексту #2196F3; */
+
+/* Хедер фон #FFFFFF; */
+/* Герой фон #2F303A; */
+/* Чим ми займаємся фон #E5E5E5; */
+/* Наша команда фон #F5F4FA; */
+/* Футер фон #2F303A; */
+
 body {
     color: var(--primary-text-color);
     background-color: var(--primary-bg-color);
@@ -22,264 +33,275 @@ a {
     text-decoration: none;
 }
 
-/* Основний колір тексту #212121; */
-/* Другорядний колір тексту #757575; */
-/* Білий колір тексту #FFFFFF; */
-/* Акцентований колір тексту #2196F3; */
-
-/* Хедер фон #FFFFFF; */
-/* Герой фон #2F303A; */
-/* Чим ми займаємся фон #E5E5E5; */
-/* Наша команда фон #F5F4FA; */
-/* Футер фон #2F303A; */
 
 
 
-/* header */
+
+/*----------HEADER----------------------*/
 
 header {
-    color: #212121;
-    background: #F5F4FA;
-
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
 }
 
-header:hover,
-header:focus {
-    
-
-}
-
-
-
-
-
-
-/* header logo */
-.logo {
+.header-logo {
     color: var(--accent-text-color);
 }
 
-.logo:hover, 
-.logo:focus {
-
-}
-
-.logo-second {
-    color: #212121;
-}
-
-
-
-
-
-
-/* header  site-nav */
-.site-nav-studio {
-color: var(--primary-text-color);
-}
-
-.site-nav-studio:hover,
-.site-nav-studio:focus {
-color: var(--white-text-color);
-background-color: var(--accent-text-color);
-}
-
-
-
-.site-nav-portfolio {
-color: var(--primary-text-color);
-}
-
-.site-nav-portfolio:hover,
-.site-nav-portfolio:focus {
-color: var(--white-text-color);
-background-color: var(--accent-text-color); 
-}
-
-
-
-.site-nav-contacts{
-color: var(--primary-text-color);
-}
-
-.site-nav-contacts:hover,
-.site-nav-contacts:focus {
-color: var(--white-text-color);
-background-color: var(--accent-text-color); 
-}
-
-.contacts {
-
-}
-
-.contacts-mail {
-color: var(--accent-text-color);
-}
-
-.contacts-tel {
-color: var(--second-text-color);
-}
-
-
-
-/* Main */
-/* Студія. Секція 1. Герой */
-
-.hero {
-background-color: #2F303A; 
-}
-
-.hero-title {
-color: var(--white-text-color);
-}
-
-.hero-button {
-color: var(--white-text-color);
-background-color: var(--accent-text-color);
-}
-
-
-
-/* Портфоліо кнопки */
-
-.button {
+.header-second-logo {
     color: var(--primary-text-color);
-    background-color: var(--primary-bg-color);
-}   
-
-.btn-list {
-    color: var(--primary-text-color);
-    background-color: #F5F4FA;
 }
 
-.btn-list:hover,
-.btn-list:focus {
+.header-nav {
+
+}
+
+.header-list {
+
+} 
+
+.header-item {
+
+}
+
+.header-link {
+    color: var(--primary-text-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-text-color)
+}
+
+.header-second-list {
+
+}
+
+.header-second-item {
+
+}
+
+.header-mail {
+    color: var(--second-text-color);
+}
+
+.header-mail:hover,
+.header-mail:focus {
     color: var(--white-text-color);
     background-color: var(--accent-text-color);
 }
 
+.header-tel {
+    color: var(--second-text-color);
+}
 
+.header-tel:hover,
+.header-tel:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-text-color);
+}
 
+/*-----------MAIN-----------------------*/
+/*-------Секція 1. Герой----------------*/
 
-/* Портфоліо картинки */
-
-.portfolio-img {
+.hero-section {
 
 }
 
-.portfolio-title {
-color: var(--primary-text-color);
+.hero-title {
+    color: var(--primary-text-color);
 }
 
-.portfolio-text {
-color: var(--second-text-color);
+.hero-button {
+    color: var(--white-text-color);
+    background-color: var(--accent-text-color);
 }
 
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--white-text-color);
+    background-color: #188CE8;
+}
 
+/*-------Секція 2. Переваги-------------*/
+.benefits-section {
 
+}
 
-/* Студія. Секція 2. Переваги */
+.benefits-list {
 
-.benefits {
+}
+
+.benefits-item {
 
 }
 
 .benefits-title {
-color: var(--primary-text-color);
+    color: var(--primary-text-color);
 }
 
 .benefits-text {
-color: var(--second-text-color);
+    color: var(--second-text-color);
 }
 
 
-
-
-
-/* Студія. Секція 3. Чим ми займаємся */
-
-.section-title {
-color: var(--primary-text-color);
+/*------------Чим ми займаємся-----------*/
+.work-title {
+    color: var(--primary-text-color);
 }
 
-.section {
+.work-list {
 
 }
 
-.section-list {
+.work-item {
 
 }
 
-.section-img {
+.work-link {
+
+}
+
+.work-img {
 
 }
 
 
+/*-----------Секція 3. Наша команда-------*/
+.team-section {
 
-
-
-/* Студія. Секція 4. Наша команда */
-
-.section {
-    background-color: #F5F4FA;
 }
 
 .team-title {
-color: var(--primary-text-color);
+    color: var(--primary-text-color);
 }
 
 .team-list {
+
+}
+
+.team-item {
+
 }
 
 .team-foto {
+
 }
 
 .team-name {
-color: var(--primary-text-color);
+    color: var(--primary-text-color);
 }
 
 .team-text {
 color: var(--second-text-color);
 }
 
+/*----------------MAIN PORTFOLIO-------------------*/
+/*----------------Список кнопок-------------------*/
+.main {
 
+}
 
+.main-list {
 
-/* Футер */
+}
 
-footer {
+.main-item {
+
+}
+
+.main-button {
     color: var(--primary-text-color);
-    background-color: var(--footer-bg-color)
+    background-color: #F5F4FA;
 }
 
-footer:hover,
-footer:focus {
+.main-button:hover,
+.main-button:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-text-color);
+}
+
+/*----------------Список картинок-------------------*/
+.main-second-list {
 
 }
 
+.main-second-item {
 
-/* Футер логотип */
-
-.logo {
-color: var(--accent-text-color);
 }
 
-.logo-logo {
-color: var(--primary-bg-color);
+.main-img {
+
 }
 
-/* Футер адреса */
-
-.footer-address {
-color: var(--primary-bg-color);
+.main-title {
+    color: var(--primary-text-color);
 }
 
-/* Футер контакти */
-
-.footer-mail {
-color: rgba(255, 255, 255, 0.6);
+.main-span {
+    color: var(--primary-text-color);
 }
 
-.footer-tel {
-color: rgba(255, 255, 255, 0.6);;
+.main-text {
+    color: var(--second-text-color);
+}
+
+
+
+
+/*----------------FOOTER-------------------*/
+.footer {
+    color: ;
+    background-color: #2F303A;
+}
+
+.footer-logo {
+    color: var(--accent-text-color);
+}
+
+.footer-second-logo {
+    color: var(--white-text-color);
+}
+
+.footer-adress {
+
+}
+
+.footer-list {
+
+}
+
+.footer-item {
+
+}
+
+.footer-link-map {
+    color: var(--white-text-color);
+}
+
+.footer-link-map:hover,
+.footer-link-map:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-text-color)
+}
+
+.footer-link-mail {
+    color: var(--second-text-color);
+}
+
+.footer-link-mail:hover,
+.footer-link-mail:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-text-color);
+}
+
+.footer-link-tel {
+    color: var(--second-text-color);
+}
+
+.footer-link-tel:hover,
+.footer-link-tel:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-text-color)
 }
