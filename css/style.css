@@ -160,11 +160,13 @@ background-color: var(--footer-bg-color);
     color: var(--white-text-color);
     background-color: var(--accent-text-color);
 
-font-weight: 700;
-font-size: 16px;
-line-height: 1.87;
+    cursor: pointer;
 
-text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+    text-align: center;
 }
 
 .hero-button:hover,
@@ -278,7 +280,6 @@ letter-spacing: 0.03em;
     font-size: 16px;
     line-height: 1.18;
 
-    text-align: center;
     letter-spacing: 0.03em;
 }
 
@@ -289,7 +290,6 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
 
-text-align: center;
 letter-spacing: 0.03em;
 }
 
@@ -313,6 +313,7 @@ letter-spacing: 0.03em;
 .main-button {
     color: var(--primary-text-color);
     background-color: #F5F4FA;
+
     cursor: pointer;
 }
 
