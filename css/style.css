@@ -220,7 +220,7 @@ color: var(--second-text-color);
 /*----------------MAIN PORTFOLIO-------------------*/
 /*----------------Портфоліо кнопки-----------------*/
 .main {
-
+    background-color: #E5E5E5;
 }
 
 .main-list {
