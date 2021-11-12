@@ -27,11 +27,12 @@ body {
 font-family: 'Roboto', sans-serif;
 font-size: 14px;
 letter-spacing: 0.03em;
+}
+
 img {
 display: block;
 max-width: 100%;
 height: auto;
-}
 }
 
 ul {
@@ -47,10 +48,11 @@ a {
 .conteiner {
     margin-right: auto;
     margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: tomato;
 }
 
 
@@ -67,9 +69,7 @@ ul {
     padding: 0;
 } 
 
-section .section {
-    color: blue;
-}
+
 
 
 
@@ -80,6 +80,9 @@ section .section {
 header {
     color: var(--primary-text-color);
     background-color: var(--primary-bg-color);
+    border-bottom: 1px solid #ECECEC;
+
+    width: 1600px;
 }
 
 .header-logo {
@@ -156,6 +159,7 @@ header {
 .header-tel {
     color: var(--second-text-color);
 
+    display: inline-block;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -173,11 +177,16 @@ header {
 
 
 /*-----------MAIN-----------------------*/
-/*-------Секція 1. Герой----------------*/
+/*-------Секція 1. HERO----------------*/
 /*-------Портфоліо кнопки---------------*/
 
 .hero-section {
-background-color: var(--footer-bg-color);
+    background-color: var(--footer-bg-color);
+
+    width: 1600px;
+    height: 600px;
+
+    text-align: center;
 }
 
 .hero-title {
@@ -186,10 +195,14 @@ background-color: var(--footer-bg-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-
-    text-align: center;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
-}
+    text-align: center;
+
+    width: 696px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    }
 
 .hero-button {
     color: var(--white-text-color);
@@ -201,10 +214,15 @@ background-color: var(--footer-bg-color);
     font-size: 16px;
     line-height: 1.87;
 
-    text-align: center;
-
+    display: inline-block;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 0px;
     border-radius: 4px;
+
+    padding: 10px 32px;
+    min-width: 200px;
+
+    margin-bottom: 200px;
 }
 
 .hero-button:hover,
@@ -223,6 +241,7 @@ background-color: #E5E5E5;
 }
 
 .benefits-list {
+    margin-bottom: 94px;
 
 }
 
@@ -239,6 +258,8 @@ background-color: #E5E5E5;
     letter-spacing: 0.03em;
 
     text-transform: uppercase;
+
+    margin-bottom: 10px;
 }
 
 .benefits-text {
@@ -263,6 +284,8 @@ font-size: 36px;
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
+
+margin-bottom: 50px;    
 }
 
 .work-list {
@@ -278,7 +301,7 @@ letter-spacing: 0.03em;
 }
 
 .work-img {
-
+    
 }
 
 
@@ -288,7 +311,6 @@ letter-spacing: 0.03em;
 /*-----------Секція 3. Наша команда-------*/
 .team-section {
     background-color: #F5F4FA;
-
 }
 
 .team-title {
@@ -299,7 +321,10 @@ font-size: 36px;
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
+
+margin-bottom: 50px;
 }
+
 
 .team-list {
 
@@ -310,7 +335,7 @@ letter-spacing: 0.03em;
 }
 
 .team-foto {
-
+margin-bottom: 30px;
 }
 
 .team-name {
@@ -321,6 +346,8 @@ letter-spacing: 0.03em;
     line-height: 1.18;
 
     letter-spacing: 0.03em;
+
+    margin-bottom: 10px;
 }
 
 .team-text {
@@ -331,6 +358,8 @@ font-size: 16px;
 line-height: 1.18;
 
 letter-spacing: 0.03em;
+
+margin-bottom: 30px;
 }
 
 
@@ -404,9 +433,10 @@ letter-spacing: 0.03em;
 
 
 /*----------------FOOTER-------------------*/
-.footer {
-    color: ;
+footer {
     background-color: #2F303A;
+
+    width: 1600px;
 }
 
 .footer-logo {
@@ -418,6 +448,9 @@ letter-spacing: 0.03em;
     line-height: 1.19;
 
     letter-spacing: 0.03em;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-top: 60px;
 }
 
 .footer-second-logo {
@@ -430,6 +463,10 @@ letter-spacing: 0.03em;
     line-height: 1.2;
 
     letter-spacing: 0.03em;
+}
+
+.footer-logo .footer-second-logo{
+    margin-bottom: 20px;
 }
 
 .footer-adress {
@@ -453,6 +490,8 @@ letter-spacing: 0.03em;
     line-height: 1.71;
 
     letter-spacing: 0.03em;
+    display: inline-block;
+    margin-bottom: 9px;
 }
 
 .footer-link-map:hover,
@@ -469,8 +508,10 @@ letter-spacing: 0.03em;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-
     letter-spacing: 0.03em;
+
+    display: inline-block;
+    margin-bottom: 9px;
     }
 
 .footer-link-mail:hover,
@@ -486,12 +527,22 @@ letter-spacing: 0.03em;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-
     letter-spacing: 0.03em;
+
+    display: inline-block;
+    padding-bottom: 60px;
 }
 
 .footer-link-tel:hover,
 .footer-link-tel:focus {
     color: var(--white-text-color);
     background-color: var(--accent-text-color)
+}
+
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    width: 1600px;
 }
