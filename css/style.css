@@ -27,6 +27,11 @@ body {
 font-family: 'Roboto', sans-serif;
 font-size: 14px;
 letter-spacing: 0.03em;
+img {
+display: block;
+max-width: 100%;
+height: auto;
+}
 }
 
 ul {
@@ -35,6 +40,35 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+
+/*----------CONTEINER--------------------*/
+.conteiner {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: tomato;
+}
+
+
+/*------ГЛОБАЛЬНЕ СКИДАННЯ СТИЛІВ---------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+} 
+
+section .section {
+    color: blue;
 }
 
 
