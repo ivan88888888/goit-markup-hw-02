@@ -196,7 +196,7 @@ header {
 
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36;
+    line-height: 1.37;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
@@ -211,7 +211,7 @@ header {
     background-color: var(--accent-text-color);
 
     cursor: pointer;
-    
+    font-family: Roboto;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
